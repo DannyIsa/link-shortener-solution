@@ -1,0 +1,22 @@
+{
+  "urls": [
+    {
+      "full": "https://9gag.com/",
+      "short": 1,
+      "creationDate": "Mon Mar 08 2021 10:43:41 GMT+0200 (Israel Standard Time)",
+      "clicks": 2
+    },
+    {
+      "full": "https://www.netflix.com/browse",
+      "short": 2,
+      "creationDate": "Mon Mar 08 2021 10:43:41 GMT+0200 (Israel Standard Time)",
+      "clicks": 0
+    },
+    {
+      "full": "https://mondrianandme.com/",
+      "short": 3,
+      "creationDate": "Mon Mar 08 2021 10:43:42 GMT+0200 (Israel Standard Time)",
+      "clicks": 0
+    }
+  ]
+}
