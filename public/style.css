@@ -1,0 +1,72 @@
+body {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  background-image: linear-gradient(180deg, #235aa1, #133168);
+  margin-top: 50px;
+  font-size: 1.7rem;
+}
+
+section {
+  width: 70%;
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
+  background-image: linear-gradient(45deg, #133471, #2666af);
+  box-shadow: 15px 15px 15px #0b224b;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.input {
+  width: 25rem;
+  height: 80%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px white solid;
+  font-size: 1.5rem;
+}
+.input:focus {
+  outline: none;
+}
+
+.button {
+  background-color: #2ea043;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 8px;
+  font-size: 1.3rem;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button:focus {
+  outline: none;
+}
+
+.contact-footer {
+  margin-top: 30px;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-footer-picture {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.contact-footer-picture:hover {
+  opacity: 0.7;
+}
