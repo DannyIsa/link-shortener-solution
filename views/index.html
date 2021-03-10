@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <title>URL Shortener</title>
-    <link rel="icon" type="image/png" href="../public/favicon.ico" />
-    <link href="./public/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="../public/LOGO.jpg" />
+    <link href="../public/style.css" rel="stylesheet" type="text/css" />
   </head>
-
   <body>
-    <h1>URL Shortener Microservice</h1>
     <main>
       <section>
-        <form action="api/shorturl/new" method="POST">
-          <fieldset>
-            <legend>URL Shortener</legend>
-            <label for="url_input">URL:</label>
-            <input
-              id="url_input"
-              type="text"
-              name="url"
-              placeholder="https://www.freecodecamp.org/"
-            />
-            <input type="submit" value="POST URL" />
-          </fieldset>
+        <h1>URL Shortener Microservice</h1>
+        <form action="api/shortUrls/new" method="POST">
+          <label for="url_input">URL:</label>
+          <input
+            id="url_input"
+            type="url"
+            name="url"
+            placeholder="Place URL here..."
+            required
+            class="input"
+          />
+          <input class="button" type="submit" value="Short This Url" />
         </form>
       </section>
     </main>
-    <footer>
-      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+    <footer class="contact-footer">
+      <a href="https://www.facebook.com/" target="_blank"
+        ><img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png"
+          alt="facebook logo"
+          class="contact-footer-picture"
+      /></a>
+      <a href="https://twitter.com/home" target="_blank"
+        ><img
+          src="https://i.pinimg.com/originals/28/90/ba/2890bac9ba41e52707f36268231dfe9e.png"
+          alt="twitter logo"
+          class="contact-footer-picture"
+      /></a>
     </footer>
   </body>
 </html>
